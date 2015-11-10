@@ -1,3 +1,32 @@
 body {
-  padding-top: 70px;  /* Move body of page below navbar. */
+  padding-top: 0px;
+}
+
+.header-image {
+  background-image: url('/images/books.jpg');
+  background-size: cover;
+  height: 240px;
+}
+
+nav.navbar.navbar-inverse {
+  background-color: #82231B;
+  border-radius: 0;
+  border-style: none;
+}
+
+.navbar-inverse .navbar-nav > li > a, .navbar > .container .navbar-brand {
+  color: white;
+}
+
+.myFooter {
+  background-color: #82231B;
+}
+
+p.text-center.text-muted {
+  color: white;
+}
+
+footer {
+  margin: 0;
+  padding: 0;
 }
